@@ -7,8 +7,11 @@ class FirstApp {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JLabel text = new JLabel("Hello Java Swing");
-        frame.add(text);
 
+        JButton button = new JButton("I am a Button");
+        button.setBounds(10, 10, 1000, 500);
+
+        frame.add(button);
         frame.setVisible(true);
     }
 }
